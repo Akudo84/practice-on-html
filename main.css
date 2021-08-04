@@ -1,0 +1,86 @@
+/**Get rid of all the margin and padding**/
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+}
+nav,section,header,footer,article{
+    display: block;
+}
+.container{
+    width: 1000px;
+    margin: 0px auto;
+
+    
+}
+.logo{
+    width: 255px;
+    height: 100px;
+    float: left;
+}
+.top-nav{
+    width: 745px;
+    height: 100px ;
+    float: left;
+}
+.top-nav ul li{
+    float: left;
+    padding: 40px 20px;
+}
+.left-side{
+    float: left;
+    width: 500px;
+    border: 2px;
+    margin-right: 20px;
+}
+.right-side{
+    float: right;
+    width: 200px;
+    
+}
+.left-side article{
+    border: 2px solid greenyellow;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.right-side div{
+    border: 2px solid brown;
+    margin: 10px 0px;
+    padding: 10px;
+
+}
+
+.caption-page{
+    text-align: center;
+    color: chocolate;
+    text-emphasis:initial;
+}
+.footer-page{
+    clear: both;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+tr:nth-child(2n){
+    background-color: darkgray;
+}
+thead{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+tfoot{
+    background-color: darkgoldenrod;
+    text-align: center;
+}
